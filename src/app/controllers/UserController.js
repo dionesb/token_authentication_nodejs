@@ -33,6 +33,11 @@ class UserController {
       email,
     });
   }
+
+  async update(req, res) {
+    console.log(req);
+    return res.json({ update: true });
+  }
 }
 
 export default new UserController();
