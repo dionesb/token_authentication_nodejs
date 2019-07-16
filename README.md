@@ -1,4 +1,4 @@
-# Aplication
+# Application
 
 JWT authentication with Node.js
 
